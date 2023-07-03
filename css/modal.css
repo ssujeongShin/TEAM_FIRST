@@ -1,0 +1,44 @@
+.modal_wrap{
+    display: none;
+    width:  80%;
+    height: 90%;
+    position: fixed;
+    top:30%;
+    left: 25%;
+    margin: -12% -15%;
+    background:#fff;
+    z-index: 20;
+    border-radius: 8px;
+}
+.black_bg{
+    display: none;
+    position: fixed;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0,0, 0.5);
+    top:0;
+    left: 0;
+    z-index: 999999;
+}
+.modal_close{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+.modal_close> a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:url(https://img.icons8.com/metro/26/000000/close-window.png);
+    text-indent: -9999px;
+}
+iframe{
+  width: 100%;
+  height: 100%;
+}
+#modal_btn{
+  cursor: pointer;
+}
